@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   // Use or create the audio element
   let backgroundMusic = document.getElementById("background-music");
   if (!backgroundMusic) {
-    backgroundMusic = new Audio("../code/song.m4a");
+    backgroundMusic = new Audio("song.m4a");
     backgroundMusic.id = "background-music";
     backgroundMusic.loop = true;
     backgroundMusic.preload = "auto"; // Preload the audio

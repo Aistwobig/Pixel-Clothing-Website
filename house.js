@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         this.classList.add("selected");
         const equipBadge = document.createElement("img");
-        equipBadge.src = "../code/img/equip.png";
+        equipBadge.src = "img/equip.png";
         equipBadge.alt = "Equipped";
         equipBadge.className = "equip-badge";
         this.appendChild(equipBadge);
@@ -125,11 +125,11 @@ document.addEventListener("DOMContentLoaded", () => {
         sizePanelWonhee?.classList.remove("show");
 
         if (this.classList.contains("slot-1")) {
-          centerDisplay.src = "../code/img/Iroha.png";
+          centerDisplay.src = "img/Iroha.png";
           centerDisplay.style.display = "block";
           descriptionPanelIroha?.classList.add("show");
         } else if (this.classList.contains("slot-2")) {
-          centerDisplay.src = "../code/img/wonhee.png";
+          centerDisplay.src = "img/wonhee.png";
           centerDisplay.style.display = "block";
           descriptionPanelWonhee?.classList.add("show");
         } else {

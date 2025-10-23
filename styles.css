@@ -24,7 +24,7 @@ body {
 }
 
 
-/* 🔸 Blur overlay */
+/* 📸 Blur overlay */
 #blur-overlay {
   position: fixed;
   inset: 0;
@@ -643,7 +643,7 @@ body.about-active main {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../code/img/merchant.png);
+  background-image: url(img/merchant.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -710,7 +710,7 @@ body {
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s ease;
-  background-image: url(../code/img/itemslot1.png);
+  background-image: url(img/itemslot1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
