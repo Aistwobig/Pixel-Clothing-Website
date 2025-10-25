@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
           centerDisplay.style.display = "block";
           descriptionPanelIroha?.classList.add("show");
         } else if (this.classList.contains("slot-2")) {
-          centerDisplay.src = "img/Wonhee.png";
+          centerDisplay.src = "img/illit.png.png";
           centerDisplay.style.display = "block";
           descriptionPanelWonhee?.classList.add("show");
         } else {
@@ -500,4 +500,5 @@ document.addEventListener("keydown", e => {
     }
   }
 });
+
 
